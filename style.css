@@ -1,0 +1,181 @@
+body {
+   margin: 0px;
+   border: 0px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 15px 220px;
+    border: 0px;
+    margin: 0px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-link-text, .hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    opacity: 0.5;
+}
+
+.hero-link-text {
+    display: flex;
+    gap: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header-lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.header-lower-left {
+    display: block;
+    width: 450px;
+}
+
+.image {
+    display: flex;
+    background-color: #6d747d;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 550px;
+    font-size: 18px;
+    color:#F9FAF8;
+
+}
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:800;
+}
+
+button {
+    padding: 5px 25px;
+    border: none;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #3b82f6;
+    font-family: 'Roboto';
+
+}
+
+.second {
+    margin: auto;
+}
+
+.button-words {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 325px;
+    margin-bottom: 140px;
+}
+
+.information-header-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #6d7681;
+    width: 170px;
+    text-align: center;
+}
+
+.buttontext-1, .buttontext-2, .buttontext-3, .buttontext-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.third {
+    margin:auto;
+    padding: 150px 350px;
+    background: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align:left;
+}
+
+.author {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+.fourth {
+    margin:auto;
+    padding: 150px 300px;
+}
+
+.blue-box {
+    background:#3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.call {
+    font-size: 22px;
+    font-weight: 700; 
+    color:#F9FAF8;
+}
+
+.sign {
+    font-size: 18px;
+    color:#F9FAF8;
+}
+
+.sign-up-button {
+    padding: 3px 25px;
+    border: 2px solid white;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #3b82f6;
+    font-family: 'Roboto';
+}
